@@ -249,13 +249,41 @@ s, i, em {
         /*cursor: move; 四方向箭头*/
         /*cursor: default; 鼠标*/
     }
-    .search-cart {
+    .search-car {
         float: right;
-        width: 139px;
+        width: 96px;
         height: 34px;
+        line-height: 34px;
+        padding-left: 43px;
+        position: relative;
         margin: 25px 65px 0 0;
         border: 1px solid #DFDFDF;
         background-color: #F9F9F9;
+    }
+    .icon1 {
+        position: absolute;
+        top: 9px;
+        left: 18px;
+        width: 18px;
+        height: 16px;
+        background: url("../images/tel.png") no-repeat 0 -58px;
+    }
+    .icon2 {
+        position: absolute;
+        right: 10px;
+        color: #999;
+        font: 13px/34px "SimSun";
+    }
+    .icon3 {
+        position: absolute;
+        top: -5px;
+        width: 16px;
+        height: 14px;
+        background-color: #C81623;
+        line-height: 14px;
+        text-align: center;
+        color: #fff;
+        /*border-radius: 7px 7px 7px 0;*/
     }
     .search-moreAlink {
         float: left;
