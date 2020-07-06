@@ -283,7 +283,7 @@ s, i, em {
         line-height: 14px;
         text-align: center;
         color: #fff;
-        /*border-radius: 7px 7px 7px 0;*/
+        border-radius: 7px 7px 7px 0;
     }
     .search-moreAlink {
         float: left;
