@@ -198,57 +198,57 @@ s, i, em {
 
 
     /*search部分start*/
-    /*.search-logo {*/
-    /*    float: left;*/
-    /*    width: 362px;*/
-    /*    height: 100px;*/
-    /*    background-color: pink;*/
-    /*}*/
     .search-logo {
         float: left;
         width: 362px;
-        height: 60px;
-        padding: 20px 0;
+        height: 100px;
+        background-color: pink;
     }
-    .search-logo a {
-        width: 270px;
-        height: 60px;
-        display: block;
-        text-indent: -9999px;
-        background: url("../images/logo.png") no-repeat;
-    }
-    /*.search-input {*/
+    /*.search-logo {*/
     /*    float: left;*/
-    /*    width: 538px;*/
-    /*    height: 61px;*/
-    /*    background-color: blue;*/
+    /*    width: 362px;*/
+    /*    height: 60px;*/
+    /*    padding: 20px 0;*/
+    /*}*/
+    /*.search-logo a {*/
+    /*    width: 270px;*/
+    /*    height: 60px;*/
+    /*    display: block;*/
+    /*    text-indent: -9999px;*/
+    /*    background: url("../images/logo.png") no-repeat;*/
     /*}*/
     .search-input {
         float: left;
-        height: 36px;
-        padding-top: 25px;
+        width: 538px;
+        height: 61px;
+        background-color: blue;
     }
-    .search-input input {
-        float: left;
-        width: 450px;
-        height: 32px;
-        padding-left: 4px;
-        font: 400 14px/32px "microsoft yahei";
-        color: rgb(153, 153, 153);
-        border: 2px solid #B61D1D;
-    }
-    .search-input button {
-        width: 82px;
-        height: 36px;
-        color: #ffffff;
-        font: 400 16px/36px "微软雅黑";
-        background-color: #B61D1D;
-        cursor: pointer;
-        /*cursor: pointer; 小手*/
-        /*cursor: text; 光标*/
-        /*cursor: move; 四方向箭头*/
-        /*cursor: default; 鼠标*/
-    }
+    /*.search-input {*/
+    /*    float: left;*/
+    /*    height: 36px;*/
+    /*    padding-top: 25px;*/
+    /*}*/
+    /*.search-input input {*/
+    /*    float: left;*/
+    /*    width: 450px;*/
+    /*    height: 32px;*/
+    /*    padding-left: 4px;*/
+    /*    font: 400 14px/32px "microsoft yahei";*/
+    /*    color: rgb(153, 153, 153);*/
+    /*    border: 2px solid #B61D1D;*/
+    /*}*/
+    /*.search-input button {*/
+    /*    width: 82px;*/
+    /*    height: 36px;*/
+    /*    color: #ffffff;*/
+    /*    font: 400 16px/36px "微软雅黑";*/
+    /*    background-color: #B61D1D;*/
+    /*    cursor: pointer;*/
+    /*    !*cursor: pointer; 小手*!*/
+    /*    !*cursor: text; 光标*!*/
+    /*    !*cursor: move; 四方向箭头*!*/
+    /*    !*cursor: default; 鼠标*!*/
+    /*}*/
     .search-cart {
         float: right;
         width: 139px;
