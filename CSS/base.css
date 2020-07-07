@@ -324,6 +324,20 @@ s, i, em {
     .footer-top-slogen-icon4 {
         margin-left: 302px;
     }
+    .footer-top-shopping dl {
+        float: left;
+        width: 200px;
+    }
+    .footer-top-shopping .last-dl {
+        width: 100px;
+    }
+    .footer-top-shopping dt {
+        height: 34px;
+        font: 400 16px/34px "microsoft yahei";
+    }
+    .footer-top-shopping dd {
+        line-height: 20px;
+    }
     /*footer部分end*/
 
 
