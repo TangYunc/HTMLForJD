@@ -306,3 +306,26 @@ s, i, em {
         background-color: red;
     }
     /*footer部分end*/
+
+
+.clearfix:after {
+    content: "";
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    display: block;
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;/*IE678*/
+}
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: " ";
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;/*IE678*/
+}
