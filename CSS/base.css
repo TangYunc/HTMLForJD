@@ -289,7 +289,11 @@ s, i, em {
         float: left;
         width: 530px;
         height: 28px;
-        background-color: purple;
+        line-height: 28px;
+        /*background-color: purple;*/
+    }
+    .search-moreAlink a {
+        margin-right: 8px;
     }
 
     /*search部分end*/
