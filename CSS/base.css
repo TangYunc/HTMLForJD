@@ -331,12 +331,24 @@ s, i, em {
     .footer-top-shopping .last-dl {
         width: 100px;
     }
-    .footer-top-shopping dt {
+    .footer-top-shopping dt, .coverarea h3 {
         height: 34px;
         font: 400 16px/34px "microsoft yahei";
     }
     .footer-top-shopping dd {
         line-height: 20px;
+    }
+    .coverarea {
+        width: 203px;
+        height: 169px;
+        float: right;
+        background: url("../images/china.png") no-repeat left bottom;
+    }
+    .coverarea p {
+        padding-top: 8px;
+    }
+    .coverarea a {
+        float: right;
     }
     /*footer部分end*/
 
