@@ -339,9 +339,11 @@ s, i, em {
         line-height: 20px;
     }
     .coverarea {
-        width: 203px;
+        width: 186px;
         height: 169px;
         float: right;
+        margin-right: 60px;
+        padding-left: 17px;
         background: url("../images/china.png") no-repeat left bottom;
     }
     .coverarea p {
