@@ -311,6 +311,23 @@ s, i, em {
         float: left;
         background-color: pink;
     }
+    .shotCut-nav-menu-all a {
+        display: block;
+        width: 210px;
+        height: 44px;
+        color: white;
+        padding: 0 10px;
+        background-color: #B1191A;
+        font: 400 15px/44px "microsoft yahei";
+    }
+    .shotCut-nav-menu-one {
+        height: 465px;
+        background-color: #C81623;
+        margin-top: 2px;
+        border-left: 1px solid #B1191A;
+        border-bottom: 1px solid #B1191A;
+
+    }
     .shotCut-nav-items {
         width: 730px;
         height: 44px;
