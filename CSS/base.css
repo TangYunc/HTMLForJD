@@ -299,6 +299,39 @@ s, i, em {
     /*search部分end*/
 
 
+    /*shotCut-nav部分start*/
+    .shotCut-nav {
+        height: 44px;
+        width: 100%;
+        border-bottom: 2px solid #B1191A;
+    }
+    .shotCut-nav-menu {
+        width: 210px;
+        height: 44px;
+        float: left;
+        background-color: pink;
+    }
+    .shotCut-nav-items {
+        width: 730px;
+        height: 44px;
+        float: left;
+        background-color: red;
+    }
+    .shotCut-nav-img {
+        width: 200px;
+        height: 44px;
+        float: right;
+        margin-top: -10px;
+        margin-right: 50px;
+        background-color: yellow;
+        /*position: relative;*/
+        /*left: -50px;*/
+        /*top: -10px;*/
+    }
+    /*shotCut-nav部分end*/
+
+
+
     /*footer部分start*/
     .footer-top-slogen {
         width: 100%;
