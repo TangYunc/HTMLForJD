@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+    /*main部分start*/
+    .main-slider {
+        float: left;
+        width: 730px;
+        height: 454px;
+        margin: 12px 0 0 220px;
+    }
+    .main-news {
+        float: right;
+    }
+    .main-news-top {
+        width: 248px;
+        height: 372px;
+        margin: 12px 0 5px 0;
+        border: 1px solid #E4E4E4;
+    }
+    /*.main-news-t*/
+    /*main部分end*/
