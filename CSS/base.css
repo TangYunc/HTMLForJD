@@ -327,13 +327,24 @@ s, i, em {
         margin-top: 2px;
         border-left: 1px solid #B1191A;
         border-bottom: 1px solid #B1191A;
-
     }
     .shotCut-nav-items {
         width: 730px;
         height: 44px;
         float: left;
-        background-color: red;
+    }
+    .shotCut-nav-items li {
+        float: left;
+    }
+    .shotCut-nav-items a {
+        display: inline-block;
+        height: 44px;
+        padding: 0 20px;
+        color: #333;
+        font: 400 16px/44px "微软雅黑";
+    }
+    .shotCut-nav-items a:hover {
+        color: #C81623;
     }
     .shotCut-nav-img {
         width: 200px;
