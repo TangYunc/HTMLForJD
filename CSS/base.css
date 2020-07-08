@@ -352,6 +352,21 @@ s, i, em {
     .coverarea a {
         float: right;
     }
+    .footer-bottom {
+        text-align: center;
+        margin-top: 20px;
+        padding: 20px 0 30px;
+        border-top: 1px solid #E5E5E5;
+    }
+    .footer-bottom-links a {
+        margin: 0 10px;
+    }
+    .footer-bottom-copyright {
+        padding: 10px 0;
+    }
+    .footer-bottom-img a {
+        margin: 0 5px;
+    }
     /*footer部分end*/
 
 
