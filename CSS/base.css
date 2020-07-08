@@ -328,6 +328,28 @@ s, i, em {
         border-left: 1px solid #B1191A;
         border-bottom: 1px solid #B1191A;
     }
+    .shotCut-nav-menu-one div {
+        height: 31px;
+        font: 400 14px/31px "microsoft yahei";
+        padding: 0 10px;
+    }
+    .shotCut-nav-menu-one div:hover {
+        background-color: white;
+    }
+    .shotCut-nav-menu-one div:hover a {
+        color: #B1191A;
+    }
+    .shotCut-nav-menu-one h3 {
+        float: left;
+    }
+    .shotCut-nav-menu-one a {
+        color: #fff;
+    }
+    .shotCut-nav-menu-one i {
+        float:  right;
+        color: white;
+        font: 400 9px/31px "consolas";
+    }
     .shotCut-nav-items {
         width: 730px;
         height: 44px;
