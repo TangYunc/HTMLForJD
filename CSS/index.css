@@ -5,10 +5,34 @@
         float: left;
         width: 730px;
         height: 454px;
+        position: relative;
         margin: 12px 0 0 220px;
+    }
+    .main-slider ul {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        margin-left: -66px;
+    }
+    .main-slider li {
+        float: left;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 18px;
+        background-color: #3E3E3E;
+        margin: 0 2px;
+        cursor: pointer;
+        color: white;
+    }
+    .main-slider .current {
+        background-color: white;
     }
     .main-news {
         float: right;
+        width: 250px;
+        height: 466px;
     }
     .main-news-top {
         width: 248px;
