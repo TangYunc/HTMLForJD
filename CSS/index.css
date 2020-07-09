@@ -29,6 +29,30 @@
     .main-slider .current {
         background-color: white;
     }
+    .arrow a {
+        position: absolute;
+        top: 50%;
+        margin-top: -31px;
+        width: 28px;
+        height: 62px;
+        background-color: rgba(0, 0, 0, 0.3);
+        /*opacity: 0.1;*/
+        border-radius: 10px;
+        color: #fff;
+        text-align: center;
+        font: 400 22px/62px "simsun";
+    }
+    .arrow a:hover {
+        background: rgba(0, 0, 0, .7);
+    }
+    .arrow-left {
+        left: 0;
+        border-radius: 0 10px 10px 0;
+    }
+    .arrow .arrow-right {
+        right: 0;
+        border-radius: 10px 0 0 10px;
+    }
     .main-news {
         float: right;
         width: 250px;
