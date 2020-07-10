@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        ul {
+            list-style: none;
+            width: 510px;
+            overflow: hidden;
+            margin-left: -1px;
+        }
+        li {
+            float: left;
+            width: 100px;
+            height: 40px;
+            background-color: pink;
+            text-align: center;
+            cursor: pointer;
+            font: 400 18px/40px "simsun";
+        }
+        span {
+            display: none;
+            width: 500px;
+            height: 360px;
+            font: 700 100px/360px "consolas";
+            text-align: center;
+            background-color: yellow;
+        }
+        .box {
+            width: 500px;
+            height: 400px;
+            /*overflow: hidden;*/
+            margin: 100px auto;
+            border: 1px solid #ccc;
+        }
+        .current {
+            background-color: purple;
+        }
+        .show {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <ul>
+            <li>鞋子</li>
+            <li>袜子</li>
+            <li>裤子</li>
+            <li>帽子</li>
+            <li class="current">裙子</li>
+        </ul>
+        <span>鞋子</span>
+        <span>袜子</span>
+        <span>裤子</span>
+        <span>帽子</span>
+        <span class="show">裙子</span>
+    </div>
+</body>
+</html>
