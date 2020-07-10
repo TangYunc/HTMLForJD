@@ -161,11 +161,44 @@
     /*.main-news-top-money span {*/
     /*    background-position: 0 -300px;*/
     /*}*/
-    /*.show {*/
-    /*    background: url("../images/fly.png") no-repeat right top;*/
+    /*.main-news-top-money .show {*/
+    /*    background: url("../images/hot.png") no-repeat right top;*/
     /*}*/
-    /*.spe {*/
-    /*    background: url("../images/fly.png") no-repeat right top 0;*/
-    /*}*/
+    .main-news-top-money .spe {
+        background: url("../images/hot.png") no-repeat right top 0;
+    }
     /*.main-news-t*/
     /*main部分end*/
+
+
+
+
+    /*today部分start*/
+    .today {
+        /*margin: 10px auto 20px;*/
+        padding: 10px 0 20px;
+    }
+    .today-left {
+        float: left;
+    }
+    .today-left a {
+        display: block;
+        width: 210px;
+        height: 151px;
+        background: url("../images/today.png") left bottom;
+    }
+    .today-right {
+        float: right;
+        width: 980px;
+        position: relative;
+        overflow: hidden;
+        margin: 0 10px;
+    }
+    .today-right ul {
+        width: 410%;
+    }
+    .today-right li {
+        float: left;
+        margin-right: 1px;
+    }
+    /*today部分end*/
